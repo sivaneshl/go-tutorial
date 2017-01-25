@@ -15,4 +15,10 @@ func main() {
 	s1[0] = "XXX"      // modify the elements of the slice
 	fmt.Println(s, s1) // will update the underlying array
 
+	fmt.Printf("len=%d cap=%d %v \n", len(s), cap(s), s)
+	fmt.Printf("len=%d cap=%d %v \n", len(s1), cap(s1), s1)
+
+	var s_nil []int
+	fmt.Println(s_nil, len(s_nil), cap(s_nil))
+
 }
