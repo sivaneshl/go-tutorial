@@ -33,10 +33,10 @@ func main() {
 	f := myfloat(-math.Sqrt2)
 	v := vertex{3, 4}
 
-	a = f
+	a = f //  A value of interface type can hold any value that implements those methods.
 	fmt.Println(a.mAbs())
 
-	a = &v
+	a = &v //  A value of interface type can hold any value that implements those methods.
 	fmt.Println(a.mAbs())
 
 }
