@@ -5,20 +5,20 @@ import (
 	"math"
 )
 
-func fnOddEven (ipiNum int) string {
-	if math.Mod(float64(ipiNum), float64(2)) == 0  {
+func fnOddEven(ipiNum int) string {
+	if math.Mod(float64(ipiNum), float64(2)) == 0 {
 		return "EVEN"
 	} else {
-		return "ODD"	
-	} 
+		return "ODD"
+	}
 
-//return int(math.Mod(float64(ipiNum), float64(2)))
+	//return int(math.Mod(float64(ipiNum), float64(2)))
 }
 
-func main () {
+func main() {
 
 	var iNum int
-	iNum = 13
-	
-	fmt.Println("The ", iNum, " Is ", fnOddEven(iNum))	
+	iNum = 14
+
+	fmt.Println("The ", iNum, " Is ", fnOddEven(iNum))
 }

@@ -11,7 +11,7 @@ var (
 	lim float64 = 10
 )
 
-func fnPower (x,y float64) float64 {
+func fnPower(x, y float64) float64 {
 	if z := math.Pow(x, y); z < lim {
 		return z
 	} else {
@@ -19,8 +19,8 @@ func fnPower (x,y float64) float64 {
 	}
 }
 
-func main () {
+func main() {
 
-	fmt.Println (fnPower (3,4))
+	fmt.Println(fnPower(2, 2))
 
 }
